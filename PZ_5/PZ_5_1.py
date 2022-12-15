@@ -7,7 +7,7 @@ def chislo():
     c = (a % 1000) // 100
     d = (a % 100) // 10
     e = (a % 100) % 10
-    if (b == c) or (b == d) or (b == e) or (c == d) or (c == e):
+    if (b == c) or (b == d) or (b == e) or (c == d) or (c == e) or (e == d):
         print('В числе', a, 'есть одинаковые цифры')
     else:
         print('В числе', a, 'нет одинаковых цифр')
